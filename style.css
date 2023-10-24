@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+:root{
+    --orange:#fd5f00;
+}
+#back{
+    background-position: center;
+    background-size: contain;
+    padding-top: 7%;
+}
+.back3{
+    background-image: url(./background\ image.webp);
+}
+.back1{
+    background-image: url(./bg_2.jpg);
+}
+.back2{
+    background-image: url(./background\ image.webp);
+}
+.imag{
+    background-image: url('https://preview.colorlib.com/theme/fox/images/about.jpg.webp');
+    height: 670px;
+    background-size: cover;
+}
+.bg-orng{
+    background-color:rgb(251, 100, 45) !important ;
+}
+.sec4-pic2{
+    width: 70px;
+    height: 68px ;
+}
+.sec5{
+    background-image:linear-gradient( rgba(59, 47, 39, 0.7), rgba(253, 95, 0, 0.7)), url('https://preview.colorlib.com/theme/fox/images/bg_5.jpg.webp');
+    height: 500px;
+    background-size: cover;
+}
+.form6 input[value] {
+    color: white;
+}
+select{
+    color: white;
+}
+textarea::placeholder {
+    color: white;
+    padding-top: 15px;
+}
+input::placeholder {
+    color: white;
+}
+.sec7 input::placeholder{
+    color: black;
+    
+}
+.div > p{
+    color: red;
+}
